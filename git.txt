@@ -1,0 +1,12 @@
+远程分支克隆到本地 git clone -b dev http://47.105.174.160:9002/jab/JQB_system.git
+关联远程github上刚创建的库 git remote add origin 地址
+推送到dev分支 git pull origin dev
+添加到暂存区 git add .
+把内容提交给本地git仓库 git commit -m "信息"
+把本地git仓库的分支提交到远程git仓库 git push -u origin dev
+切换分支 git checkout dev
+创建一个分支 git branch 分支名称  
+项目git仓库地址
+http://47.105.174.160:9002/
+账号: lb2602493976
+密码: Lb991126
